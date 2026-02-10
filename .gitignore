@@ -1,3 +1,5 @@
+#secrets
 config.py
-init_db.py
+
+#database
 warehouse.db
