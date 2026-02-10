@@ -2,4 +2,4 @@
 config.py
 
 #database
-warehouse.db
+*.db
