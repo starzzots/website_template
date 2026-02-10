@@ -1,6 +1,7 @@
 import sqlite3
+from 
 
-connection = sqlite3.connect('warehouse.db')
+connection = sqlite3.connect(DB_PATH)
 cursor = connection.cursor()
 
 cursor.execute('''

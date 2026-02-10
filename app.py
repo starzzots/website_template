@@ -1,11 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
+from  
 
 app = Flask(__name__)
-DB_NAME = 'warehouse.db'
+
 
 def get_db_connection():
-    conn = sqlite3.connect(DB_NAME)
+    conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     return conn
 
